@@ -1,0 +1,7 @@
+name: "Install ci.ant"
+description: "Setup ci.ant"
+runs:
+  using: "composite"
+  steps:
+    - run: mvn clean install
+      shell: bash
